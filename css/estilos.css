@@ -1,0 +1,237 @@
+header{
+    background-image: url(fundo5.jpg);
+    background-size: cover;
+    background-position:top center;
+	background-repeat: no-repeat;
+	height: 100%;
+    position: relative;
+}
+
+.info{
+    text-transform: uppercase;
+    float: right;
+    padding: 36px 31px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right: 25px;
+    color: whitesmoke;
+    transform: translate(-3%, -52%);
+}
+
+.modal{
+    color: #000;
+}
+.intro{
+    width: 62%;
+    margin-left: 98px;
+    transform: translateY(29%);
+    font-family: 'Merienda', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.info h3{
+    color: rgb(252, 50, 23);
+}
+
+.info button{
+    color: rgb(252, 50, 23); 
+}
+
+.horarios{
+    margin-top: -10px;
+}
+.horarios p{
+    margin-top: -16px;
+}
+
+.banner{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	padding: 20px;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+	color: #FFF;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.banner-wrapper{
+    margin-bottom: 0;
+    height: 100%;
+}
+
+@media(min-width:992px) {
+    .banner {
+        left: 29%;
+		transform: translate(0, -98%);
+		width: 40%;
+	}
+	.banner-wrapper {
+		position: relative;
+		height: 100%;
+	}
+}
+
+body,
+html{
+    height: 100%;
+    font-family: 'Unica One', cursive;
+    color: white;
+    
+}
+
+.equipe{
+    margin-top: 27%;
+    width: 90%;
+    color: #000;
+    transform: translateX(9%);
+}
+
+
+
+#equipe-titulo{
+    color: white;
+    margin-right: 551px;
+    padding: 24px;
+    font-family: 'Merienda', cursive;
+}
+
+.card{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.funcionarios{
+    margin-top: -113px;
+}
+
+footer{
+    padding: 54px;
+    background-color: black;   
+}
+
+.separador{
+    border-bottom: 1px solid rgb(195 195 195 / 22%);
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 144px;
+}
+
+address .separador{
+    width: 250px;
+}
+
+footer.row{
+    padding: 10px;
+}
+
+footer span{
+    display: block;
+    line-height: 50px;
+    font-style: inherit;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer span img{
+    margin-right: 8px;
+}
+
+address {
+    
+    line-height: 33px;
+}
+
+h1, h2{
+    color: white;
+    background-image: url(fundo-titulo.png);
+    height: 109px;
+    background-repeat: no-repeat;
+    background-position: 179px -23px;
+    background-size: 60% 138px;
+    padding: 24px;
+}
+
+h1.display-4 {
+    background: none;
+}
+
+.banner h1{
+    background: none;
+}
+@media(max-width:992px) {
+    .funcionarios{
+        display: inline-block;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .funcionarios .row{
+        flex-wrap: nowrap;
+    }
+
+    .equipe{
+        margin-top:638px;
+    }
+
+    .info{
+        transform: translate(0%, 55%);
+    }
+}
+
+.intro h1, h2{
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+  
+
+.icon{
+    width: 28px;
+    height: 28px;
+}
+
+@media(max-width:992px) {
+    .intro{
+        width: 89%;
+        margin-left: 0px;
+    }   
+
+    h1, h2 {
+        color: white;
+        background-image: url(fundo-titulo.png);
+        height: 131px;
+        background-repeat: no-repeat;
+        background-position: 31px -14px;
+        background-size: 93% 142px;
+        padding: 16px;
+    }
+
+    #equipe-titulo {
+        color: white;
+        margin-right: 0px;
+        padding: 42px;
+    }
+
+    footer .row{
+        display: block;
+    }
+
+    footer .separador{
+        width: 250px;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .equipe{
+        padding: 20px;
+    }
+}
