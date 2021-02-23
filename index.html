@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unica+One&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda&display=swap">
     <link rel="stylesheet" href="css/estilos.css">
-    
+    <link rel="shortcut icon" href="css/perfil.jpg" type="image/x-icon">
+
     <title>Barber Gomes</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Barber Gomes</a>
+        <a class="navbar-brand" href="#banner">Barber Gomes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#banner">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#intro">Serviços</a>
@@ -31,20 +33,20 @@
               <a class="nav-link" href="#equipe">Equipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contato</a>
+              <a class="nav-link" href="#onde-estamos">Onde estamos</a>
             </li>
           </ul>
         </div>
       </nav>
       <div class="banner-wrapper">
-        <div class="banner"> 
-          <h1>Barber Gomes </h1>
-          <p>Em busca do corte perfeito</p>
+        <div class="banner" id="#banner"> 
+          <h1 class="text-center">Barber Gomes </h1>
+          <p class="text-center">Em busca do corte perfeito</p>
         </div>
       </div>
     </header>
 
-    <section class="container intro">  
+    <section class="container intro" id="intro">  
       <div>
         <h1 class="text-center">Venha nos conhecer</h1>
         <p>Temos um excelente hambiente, climatizado, espaço para espera confortavel, mesa de sinuca,
@@ -53,14 +55,18 @@
         
         <h2 class="text-center">Agende seu Horário</h2>
         <p>
-          Você pode agendar seu horário atráves do app .... que você pode baixar atráves da Play Store
-          para celulares Android ou pelo IPlace para celulares IOS. Você pode também
-          agendar por whatsapp, basta enviar uma mensagem com seu nome, dia e horário que desejado que iremos atende-lo.
+          Você pode agendar seu horário atráves do appbarber que você pode baixar atráves da
+          <a href="https://play.google.com/store/apps/details?id=com.startapp.appbarber" target="_blank">Play Store</a>
+          para celulares Android ou pela <a href="https://apps.apple.com/app/id1079972583" target="_blank">App Store</a> 
+          para celulares IOS. Você pode também agendar por whatsapp, basta enviar uma mensagem com seu nome,
+          dia e horário desejado que iremos atende-lo.
         </p>
 
         <p>
-          <img class="icon" src="css/whatsapp.png" alt="whatsapp logo">
-          Whats: (51) 9 0000-0000
+          <a href="https://api.whatsapp.com/send?phone=555134637179&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio" target="blank">
+            <img class="icon" src="css/whatsapp.png" alt="whatsapp logo">
+              (51) 3463-7179
+          </a>
         </p>
       </div> 
     </section>  
@@ -69,8 +75,6 @@
       <aside class="info">
         <h3>Endereço</h3>
         <p>Rua Dr. Tancredo neves 153 - Fátima - Canoas</p>
-        <h3>Telefone</h3>
-        <p>51 0000-0000</p>
         <div class="horarios">
           <h3>Horarios</h3>
           <br><p>Terça a Sexta<br>
@@ -104,7 +108,7 @@
               <tbody>
                 <tr>
                   <td>Corte Masculino</td>
-                  <td>R$ 25,00</td>
+                  <td>R$ 28,00</td>
                 </tr>
                 <tr>
                   <td>Barba</td>
@@ -128,7 +132,7 @@
         </div>
       </div>
     </div>
-    <section class="funcionarios"> 
+    <section class="funcionarios" id="equipe"> 
       <div class="equipe">
         <h2 class="text-center" id="equipe-titulo">Equipe</h2>
         <div class="row row-cols-1 row-cols-md-3">
@@ -200,7 +204,7 @@
       </div>
     </div>
 
-    <footer>
+    <footer id="onde-estamos">
       <div class="row">
         <div class="col-6">
           <address>
@@ -209,7 +213,7 @@
             <div class="separador"></div>
             Rua Dr. Tancredo neves 153 - Fátima<br>
             Canoas-RS<br>        
-            Tel: (51) 0000-0000<br>
+            Tel: (51) 3463-7179<br>
               
           </address>
         </div>
@@ -218,13 +222,13 @@
           <strong>Redes Socias</strong>
           <div class="separador"></div>
           <span>
-            <a href="#"><img src="css/facebook.png" alt="facebook">
+            <a href="https://www.facebook.com/barbeergomess/" target="blank"><img src="css/facebook.png" alt="facebook">
              Facebook</a>
           </span>
          
           <span>
-            <a href="#"><img src="css/instagram.png" alt="instagram"></a>
-            <a href="#">Instagram</a>
+            <a href="https://www.instagram.com/_barbergomes/" target="blank"><img src="css/instagram.png" alt="instagram">
+            Instagram</a>
           </span>
         </div>
       </div>    

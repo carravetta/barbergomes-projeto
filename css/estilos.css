@@ -14,12 +14,18 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
     margin-right: 25px;
     color: whitesmoke;
-    transform: translate(-3%, -52%);
+    transform: translate(-3%, -82%);
+    box-shadow: 8px 7px 11px 3px rgb(29 28 28 / 40%);
 }
 
 .modal{
     color: #000;
 }
+
+html{
+    scroll-behavior: smooth;
+ }
+
 .intro{
     width: 62%;
     margin-left: 98px;
@@ -136,8 +142,15 @@ footer span{
     font-style: inherit;
 }
 
-footer a{
+a:link{
     text-decoration: none;
+}
+
+footer a:hover{
+    color: inherit;
+}
+footer a{
+    
     color: white;
 }
 footer span img{
@@ -199,6 +212,11 @@ h1.display-4 {
 }
 
 @media(max-width:992px) {
+
+    body{
+        font-size: 1em;
+    }
+
     .intro{
         width: 89%;
         margin-left: 0px;
