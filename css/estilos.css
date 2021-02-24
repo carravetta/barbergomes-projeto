@@ -14,7 +14,7 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
     margin-right: 25px;
     color: whitesmoke;
-    transform: translate(-3%, -82%);
+    transform: translate(-3%, -97%);
     box-shadow: 8px 7px 11px 3px rgb(29 28 28 / 40%);
 }
 
@@ -24,7 +24,18 @@ header{
 
 html{
     scroll-behavior: smooth;
- }
+}
+
+.icon-ios{
+    height: 59px;
+    width: 200px;
+}
+
+
+.icon-android{
+    height: 87px;
+    width: 200px;
+}
 
 .intro{
     width: 62%;
@@ -32,6 +43,12 @@ html{
     transform: translateY(29%);
     font-family: 'Merienda', cursive;
     color: rgb(0, 0, 0);
+   
+}
+
+.intro p{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .info h3{
@@ -51,7 +68,7 @@ html{
 
 .banner{
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 80%;
+	width: 40%;
 	padding: 20px;
 	border-radius: 8px;
 	position: absolute;
@@ -71,10 +88,10 @@ html{
     height: 100%;
 }
 
-@media(min-width:992px) {
+@media(max-width:992px) {
     .banner {
         left: 29%;
-		transform: translate(0, -98%);
+		transform: translate(3, -98%);
 		width: 40%;
 	}
 	.banner-wrapper {
@@ -196,7 +213,12 @@ h1.display-4 {
     }
 
     .info{
-        transform: translate(0%, 55%);
+        transform: translateY(81%);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 383px;
+        float: none;
     }
 }
 
