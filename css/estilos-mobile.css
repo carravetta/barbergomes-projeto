@@ -1,0 +1,93 @@
+@media(max-width:1023px) {
+
+    body{
+        font-size: 1em;
+    }
+    .banner {
+		transform: translate(3, -98%);
+        width: 76%;
+        height: 190px;
+        top: 186px;
+	}
+
+    .intro{
+        width: 89%;
+        margin-left: 0px;
+    }
+       
+    .funcionarios .row{
+        flex-wrap: nowrap;
+    }   
+
+    .funcionarios{
+        display: inline-block;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    h1, h2 {
+        color: white;
+        background-image: url(fundo-titulo.png);
+        height: 131px;
+        background-repeat: no-repeat;
+        background-position: 31px -26px;
+        background-size: 93% 142px;
+        font-size: 33px;
+        padding: 16px;
+    }
+
+    #equipe-titulo {
+        color: white;
+        margin-right: 0px;
+        padding: 42px;
+        background-position: 31px -13px;
+    }
+
+    footer .row{
+        display: block;
+    }
+
+    footer .separador{
+        width: 250px;
+    }
+
+    .info{
+        transform: translateY(81%);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 383px;
+        float: none;
+    }
+
+    .equipe{
+        margin-top:638px;
+    }
+
+}
+
+@media(max-width: 400px){
+
+    .banner {
+		transform: translate(3, -98%);
+		width: 80%;
+        left: 50%;
+	}
+    footer {
+        padding: 12px;
+    }
+
+    .info{
+        width: 87%;
+    }
+    .lead{
+        margin-top: 91px;
+    }
+
+    .row{
+        margin-right: 0px;
+    }
+
+}
