@@ -1,5 +1,9 @@
 @media(max-width:1023px) {
 
+    header{
+        height: 346px;
+    }
+
     body{
         font-size: 1em;
     }
@@ -10,9 +14,13 @@
         top: 186px;
 	}
 
+    .banner-wrapper{
+        height: 326px;
+    }
+
     .banner h1 {
         background: none;
-        height: 61px;
+        height: 94px;
     }
 
     .intro{
@@ -80,6 +88,9 @@
 		width: 80%;
         left: 50%;
 	}
+    .banner-wrapper{
+        height: 326px;
+    }
     footer {
         padding: 12px;
     }
